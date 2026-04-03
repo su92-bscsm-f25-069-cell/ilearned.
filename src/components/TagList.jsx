@@ -1,0 +1,26 @@
+export default function TagList(){
+    return(
+        <ul>
+            <li>Boilerplate
+                <ol>
+                    <li>Doctype</li>
+                    <li>HTML</li>
+                    <li>
+                        Head
+                    <ol>
+                        <li>Title</li>
+                    </ol>
+                    </li>
+                    <li>Body  
+                        <ul>
+                            <li>Headings</li>
+                            <li>Paragraphs</li>
+                            <li><em>em</em></li>
+                            <li><strong>strong</strong></li>
+                        </ul>
+                    </li>
+                </ol>
+                </li>
+        </ul>
+    );
+}
